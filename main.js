@@ -1,6 +1,9 @@
 const express = require('express');
 const puppeteer = require('puppeteer');
 
+const PINMAKER_EMAIL = process.env.PINMAKER_EMAIL;
+const PINMAKER_PASSWORD = process.env.PINMAKER_PASSWORD;
+
 const app = express();
 app.use(express.json());
 
