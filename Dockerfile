@@ -1,5 +1,5 @@
 # Base image oficial con Node.js y Chromium ya preinstalado
-FROM ghcr.io/puppeteer/puppeteer:latest
+FROM docker.io/jjsarroyo/pinmaker-automation:latest
 
 # Crear directorio app
 WORKDIR /app
